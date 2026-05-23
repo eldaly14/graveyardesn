@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Graveyard ESN Poland" },
+      { name: "description", content: "A humorous, respectful portfolio website showcasing ESN Poland's retired IT projects." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Graveyard ESN Poland" },
+      { property: "og:description", content: "A humorous, respectful portfolio website showcasing ESN Poland's retired IT projects." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Graveyard ESN Poland" },
+      { name: "twitter:description", content: "A humorous, respectful portfolio website showcasing ESN Poland's retired IT projects." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/QcteegPcaOMz6RA61RrhsptOoYJ3/social-images/social-1779523879429-ESN_star-black-safe.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/QcteegPcaOMz6RA61RrhsptOoYJ3/social-images/social-1779523879429-ESN_star-black-safe.webp" },
     ],
     links: [
       {
